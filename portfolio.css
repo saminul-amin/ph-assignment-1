@@ -8,6 +8,7 @@
     font-family: "Azeret Mono";
 }
 
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,13 +28,11 @@ header {
     border: 0.5px solid black;
 }
 
-.main-cls {
-    
-}
-
 .bg-img {
     align-items: center;
     background-image: url('assets/Hero-bg.png');
+    padding-top: 25px;
+    padding-bottom: 44px;
 }
 
 .main-div {
@@ -53,11 +52,16 @@ header {
 }
 
 .title > p {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 48px;
     text-align: center;
     margin-bottom: 24px;
     margin-top: 32px;
+}
+
+.subtitle {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .subtitle > p {
@@ -76,11 +80,7 @@ header {
     border-radius: 8px;
     margin: auto;
     display:grid;
-    
-}
-
-.btn-cls {
-    margin-bottom: 44px;
+    font-family: "Azeret Mono";
 }
 
 .bg-clr {
@@ -88,10 +88,18 @@ header {
     margin-left: 148px;
     margin-right: 152px;
     margin-top: 120px;
+    padding: 20px 37px;
+    border-radius: 16px;
 }
 
 .inner-div {
     margin: 80px 97px;
+    /* border-radius: 16px; */
+}
+
+.cards-clr {
+    background-color: white;
+    border-radius: 16px;
 }
 
 .why {
@@ -101,41 +109,57 @@ header {
     margin-bottom: 24px;
 }
 
+.subtitle-web {
+    color: #0D1321;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 .web-need {
-    margin-left: 47px;
-    margin-right: 47px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 48px;
 }
 
 .grp-1 {
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+/* .fr-mar {
+    margin: 58px 60px;
+} */
+
 .grp-title {
+    color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
     font-size: 24px;
 }
 
 .grp-sub {
-    color: #0D1321;
+    color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
-    margin-top: 16px;
+    margin-top: 24px;
     margin-bottom: 32px;
 }
 
-.fr-mar {
-    margin: 58px 60px;
-}
-
 .card-1 {
-    margin-right: 135px;
+    /* margin-right: 135px; */
 }
 
 .card-2 {
     height: 270px;
     width: 240px;
-    margin-left: 98px;
+    margin-left: 100px;
 }
 
 .btn-learn {
@@ -144,11 +168,37 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
+a {
+    font-family: "Azeret Mono";
+}
+
 .vanish-clr {
     text-decoration: none;
     color: black;
     font-size: 16px;
     font-weight: 500;
+}
+
+.grp-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 70px;
+    gap: 50px;
+}
+
+.bg-clr-1 {
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 120px;
+    padding: 20px 37px;
+    border-radius: 16px;
 }
 
 .insp {
