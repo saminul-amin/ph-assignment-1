@@ -8,7 +8,7 @@
     font-family: "Azeret Mono";
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
@@ -16,12 +16,15 @@
 
 .name {
     font-weight: 800;
+    padding-top: 17px;
 }
 
 .dwnld-btn {
     padding: 17px 24px;
     border-radius: 8px;
     font-weight: 600;
+    background-color: white;
+    border: 0.5px solid black;
 }
 
 .main-cls {
