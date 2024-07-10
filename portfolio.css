@@ -288,18 +288,24 @@ iframe {
 
 .support {
     background-image: url('assets/handshake.jpg');
-    margin: 50px 150px;
+    margin: 64px 150px;
     border-radius: 16px;
-    background-size: 100% 100%;
+    background-size: 100% 135%;
     background-repeat: no-repeat;
 }
 
 .support-marg {
-    padding: 48px 64px;
+    padding-top: 48px;
+    padding-bottom: 64px;
 }
 
 .font-wh {
     color: white;
+}
+
+.cstm {
+    margin-left: 220px;
+    margin-right: 220px
 }
 
 .need-sp {
@@ -316,6 +322,7 @@ iframe {
 }
 
 input {
+    font-family: "Azeret Mono";
     width: 548px;
     padding: 20px;
     border-radius: 8px;
@@ -324,6 +331,7 @@ input {
 }
 
 .submit {
+    font-family: "Azeret Mono";
     padding: 17px 20px;
     font-weight: 600;
     font-size: 20px;
