@@ -142,3 +142,66 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+.insp {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+iframe {
+    margin: auto;
+    display: grid;
+}
+
+.mar {
+    margin-top: 48px;
+    margin-bottom: 150px;
+}
+
+.fr-mar-1 {
+    margin: 32px;
+    border-radius: 16px;
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.05);
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.yellow {
+    background-color: rgba(255, 255, 0, 0.05);
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.grp-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.part {
+    width: 364;
+    border-radius: 16px;
+    /* gap: 24px; */
+    padding: 40px;
+}
+
+.lrn {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    /* margin-bottom: 40px; */
+}
+
+.targ {
+    margin: 150px;
+}
