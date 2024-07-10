@@ -196,16 +196,17 @@ a {
 .bg-clr-1 {
     margin-left: 148px;
     margin-right: 152px;
-    margin-top: 120px;
+    margin-top: 80px;
     padding: 20px 37px;
     border-radius: 16px;
 }
 
 .insp {
+    color: rgba(13, 19, 33, 0.3);
     margin-top: 24px;
     margin-bottom: 48px;
-    margin-left: 144px;
-    margin-right: 144px;
+    margin-left: 44px;
+    margin-right: 44px;
 }
 
 iframe {
@@ -215,12 +216,25 @@ iframe {
 
 .mar {
     margin-top: 48px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    border: 0.5px solid rgba(13, 19, 33, 0.3);
+    border-radius: 16px;
 }
 
 .fr-mar-1 {
     margin: 32px;
     border-radius: 16px;
+}
+
+.targ-detail {
+    color: rgba(13, 19, 33, 0.7);
+    margin-top: 24px;
+    /* margin-bottom: 48px; */
+    margin-left: 256px;
+    margin-right: 256px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 36px;
 }
 
 .blue {
@@ -234,10 +248,18 @@ iframe {
 .yellow {
     background-color: rgba(255, 255, 0, 0.05);
 }
-
+/* done */
 .card-title {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 24px;
+    padding-top: 16px;
+}
+
+.grp-sub-1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .grp-1 {
@@ -261,7 +283,7 @@ iframe {
 }
 
 .targ {
-    margin: 150px;
+    margin: 50px;
 }
 
 .support {
