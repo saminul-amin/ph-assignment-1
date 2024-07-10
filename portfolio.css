@@ -81,6 +81,8 @@ header {
     margin: auto;
     display:grid;
     font-family: "Azeret Mono";
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .bg-clr {
@@ -133,6 +135,7 @@ header {
     padding-bottom: 5px;
     padding-left: 100px;
     padding-right: 100px;
+    background: linear-gradient(to right, white, rgba(13, 19, 33, 0.03));
 }
 
 /* .fr-mar {
@@ -191,6 +194,7 @@ a {
     padding-left: 5px;
     padding-right: 70px;
     gap: 50px;
+    background: linear-gradient(to left, white, rgba(13, 19, 33, 0.03));
 }
 
 .bg-clr-1 {
@@ -288,6 +292,7 @@ iframe {
 
 .support {
     background-image: url('assets/handshake.jpg');
+    /* filter: brightness(70%); */
     margin: 64px 150px;
     border-radius: 16px;
     background-size: 100% 135%;
