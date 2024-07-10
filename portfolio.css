@@ -138,10 +138,6 @@ header {
     background: linear-gradient(to right, white, rgba(13, 19, 33, 0.03));
 }
 
-/* .fr-mar {
-    margin: 58px 60px;
-} */
-
 .grp-title {
     color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
@@ -153,10 +149,6 @@ header {
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 32px;
-}
-
-.card-1 {
-    /* margin-right: 135px; */
 }
 
 .card-2 {
@@ -195,6 +187,20 @@ a {
     padding-right: 70px;
     gap: 50px;
     background: linear-gradient(to left, white, rgba(13, 19, 33, 0.03));
+}
+
+.grp-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 25px;
 }
 
 .bg-clr-1 {
